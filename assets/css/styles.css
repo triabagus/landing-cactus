@@ -594,6 +594,12 @@ img {
   }
 }
 
+@media screen and (max-width: 450px){
+  .new__card:nth-child(even){
+    top: -10rem;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px){
   .home__container,
@@ -778,5 +784,9 @@ img {
   }
   .footer__copy{
     margin-top: 7.5rem;
+  }
+
+  .scrollup{
+    right: 3rem;
   }
 }
